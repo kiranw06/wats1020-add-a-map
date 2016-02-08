@@ -2,8 +2,30 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+#map-container { height: 500px; }
 
+.item {
+  background-size: cover;
+}
+
+.col-xs-4 {
+  padding-bottom: 3px;
+}
+
+
+#carousel-example-generic {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.carousel img {
+  object-fit: cover;
+  overflow: hidden;
+  min-width: 100%;
+  height: 700px;
+  max-width: none;
+}
 
 
 
